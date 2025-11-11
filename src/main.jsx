@@ -43,7 +43,7 @@ const App = () => {
       {/* ✅ Back to Home Button */}
       <div className="btn-back-container">
         <a
-          href="https://energy-verse-portal.netlify.app/?feature=10"
+          href="https://energy-verse-portal.netlify.app/?feature=14"
           className="btn-back-scroll"
         >
           ← Back to Home
