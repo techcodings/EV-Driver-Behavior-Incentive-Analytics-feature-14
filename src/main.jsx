@@ -39,6 +39,17 @@ const App = () => {
 
   return (
     <div className="wrap fade-in">
+
+      {/* ✅ Back to Home Button */}
+      <div className="btn-back-container">
+        <a
+          href="https://energy-verse-portal.netlify.app/?feature=10"
+          className="btn-back-scroll"
+        >
+          ← Back to Home
+        </a>
+      </div>
+
       {/* Header */}
       <div className="title">
         <div>
@@ -66,13 +77,13 @@ const App = () => {
         <KPI label="Inputs Editable" value="Yes" hint="Modify inputs below" />
       </div>
 
+      {/* GRID */}
       <div className="grid" style={{ marginTop: 16 }}>
         {/* Left column */}
         <div className="leftcol">
           <div className="card">
             <h3>Sessions</h3>
 
-            {/* sessions list */}
             <div className="scroll-area">
               {sessions.map((s, i) => (
                 <div key={i} className="form-row">
